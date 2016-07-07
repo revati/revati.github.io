@@ -22,6 +22,7 @@ defmodule App.News.Event.NewItemAdded do
 end
 ```
 Code will produce compile error:
+
 `(CompileError) web/domain/news/events/new_item_added.ex:7: NewItemAdded.__struct__/1 is undefined, cannot expand struct NewItemAdded`
 
 But [ExConstructor](https://github.com/appcues/exconstructor) somehow managed to make it work. A little bit of digging into source code and i found `__MODULE__`. So i changed make function to fallowing and now it works :)
