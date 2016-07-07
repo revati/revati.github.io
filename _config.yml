@@ -1,0 +1,10 @@
+excerpt_separator: ""
+pygments: true
+markdown: kramdown
+url: http://revati.github.io
+title: ravel
+email: roberts@rego.lv
+author: Roberts Guïâns
+description: my thoughts
+paginate: 3
+google_analytics: 
