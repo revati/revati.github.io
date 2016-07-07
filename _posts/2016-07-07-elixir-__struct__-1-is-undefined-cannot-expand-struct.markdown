@@ -1,6 +1,6 @@
 ---
 published: true
-title: .__struct__/1 is undefined, cannot expand struct
+title: elixir struct constructor within the same module
 layout: post
 categories: [elixir]
 ---
