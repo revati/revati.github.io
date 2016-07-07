@@ -1,6 +1,6 @@
 ---
 published: true
-title: Elixir: .__struct__/1 is undefined, cannot expand struct
+title: .__struct__/1 is undefined, cannot expand struct
 layout: post
 categories: [elixir]
 ---
