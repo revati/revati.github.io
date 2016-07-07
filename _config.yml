@@ -2,9 +2,9 @@ excerpt_separator: ""
 pygments: true
 markdown: kramdown
 url: http://revati.github.io
-title: ravel
+title: revati
 email: roberts@rego.lv
-author: Roberts Guïâns
-description: my thoughts
+author: Roberts GuÄ¼Äns
+description: my thoughts about stuff
 paginate: 3
 google_analytics: 
