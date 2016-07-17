@@ -45,3 +45,5 @@ Child.action(:ok) # outputs "ok passed"
 Child.action(:error) # "some error passed"
 Child.action("another") # "some param passed"
 ```
+
+Thanks to [Qqwy](https://elixirforum.com/t/using-base-module-function-as-fallback/1099/2)
