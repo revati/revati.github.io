@@ -51,5 +51,5 @@ export default {
 </style>
 ```
 
-<script src="https://gist.github.com/revati/6a852ddc79de0adc386f85167e7e4487"></script>
+<script src="https://gist.github.com/revati/6a852ddc79de0adc386f85167e7e4487.js"></script>
 Nice. Vue component code highlighting also would be nice.
