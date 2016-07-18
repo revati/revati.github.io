@@ -3,15 +3,13 @@ published: true
 title: vuejs v-for and v-sortable
 layout: post
 ---
-So i were trying to use [vue-sortable](http://sagalbot.github.io/vue-sortable/) with `v-for`. Fallowed setup guide and wolla - sortable list.
+So i were trying to use [vue-sortable](http://sagalbot.github.io/vue-sortable/) with *v-for*. Fallowed setup guide and wolla - sortable list.
 
 ```vue
 <template>
   <ul v-sortable>
-    <li v-for="item in items">{{ item }}</li>
-  </ul>
-
-  {{ items | json }}
+    <li v-for="item in items"></li>
+  </ul>  
 </template>
 <script>
 export default {
@@ -24,17 +22,18 @@ export default {
 <style>
 </style>
 ```
-DOM updates as it should, but i noticed that components data weren't. So i googled and found [this](https://jsfiddle.net/peterburrell/rubagbc5/5/) and some [other](https://forum.vuejs.org/topic/888/best-way-to-keep-sortable-lists-in-order/4) similar approaches. Accessing DOM and using it as source of truth? Isn't it what vuejs, react and other reactive frameworks want to get rid off? And so much boilerplate code, doh.
+
+DOM updates as it should, but i noticed that components data weren’t. So i googled and found [this](https://jsfiddle.net/peterburrell/rubagbc5/5/) and some [other](https://forum.vuejs.org/topic/888/best-way-to-keep-sortable-lists-in-order/4) similar approaches. 
+
+Accessing DOM and using it as source of truth? Isn’t it what vuejs, react and other reactive frameworks want to get rid off? And so much boilerplate code, doh.
 
 Little bit playing around and it is easier than i thought
 
 ```vue
 <template>
   <ul v-sortable="{onEnd: reorder}">
-    <li v-for="item in items">{{ item }}</li>
+    <li v-for="item in items"></li>
   </ul>
-
-  {{ items | json }}
 </template>
 <script>
 export default {
@@ -53,4 +52,3 @@ export default {
 <style>
 </style>
 ```
-
