@@ -25,7 +25,7 @@ export default {
 
 DOM updates as it should, but i noticed that components data weren’t. So i googled and found [this](https://jsfiddle.net/peterburrell/rubagbc5/5/) and some [other](https://forum.vuejs.org/topic/888/best-way-to-keep-sortable-lists-in-order/4) similar approaches. Using DOM as source of truth? Isn’t it what vuejs, react and other reactive frameworks want to get rid of? And so much boilerplate code, doh.
 
-Little bit playing around and it is easier than i thought
+Little bit playing around and it is easier than i thought...
 
 ```
 <template>
@@ -50,3 +50,5 @@ export default {
 <style>
 </style>
 ```
+
+Nice. Vue component code highlighting also would be nice.
